@@ -1,0 +1,147 @@
+.main{
+    min-width: 100%;
+    min-height:85vh;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#i{
+  margin-top: 10px;
+}
+.b1{
+    /* margin-top: 15px;
+    margin-bottom: 15px; */
+    border-radius: 5px;
+    background-color: black;
+    min-width: 25%;
+    min-height: 75vh;
+    display: flex;
+    gap:5px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+#d{
+  height: 250px;
+  width: 250px;
+}
+
+  .b11 {
+    border-radius: 5px;
+    background-color: black;
+    min-width: 35%;
+    height: 550px; /* Set a fixed height for the container */
+    overflow-y: auto; /* Make it scrollable when content overflows */
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+
+.b12{
+     /* margin-top: 15px;
+    margin-bottom: 15px; */
+    border-radius: 5px;
+    background-color: black;
+    min-width: 25%;
+    min-height: 75vh;
+
+}
+/* Style the b12 container */
+.b12 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Style the top-row with participant icon and countdown clock */
+  .top-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+
+  .countdown-clock {
+    font-weight: bold;
+  }
+  
+  /* Style the column-container */
+  .column-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Style the bid-amount and bidder-name sections */
+  .bid-amount, .bidder-name {
+    margin-bottom: 10px;
+  }
+  
+  .bid-amount label, .bidder-name label {
+    font-weight: bold;
+  }
+  
+  /* Style the "Read More" button */
+  .bidder-name button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  
+  /* Style the auction rules paragraph */
+  .auction-rules {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  /* Hide additional rules by default */
+  .auction-rules p:nth-child(n+5) {
+    display: none;
+  }
+  
+@media (max-width: 665px) {
+.main{
+    flex-direction: column;
+    gap: 5px;
+}
+.b1{
+   flex-direction: column;
+   min-width: 35vh;
+   min-height: 55vh;
+}
+.b11{
+  display: none;
+    flex-direction: column;
+    min-width: 35vh;
+    min-height: 55vh;
+ }
+ .b12{
+    flex-direction: column;
+    min-width: 35vh;
+    min-height: 55vh;
+    margin-bottom: 10px;
+ }
+  }

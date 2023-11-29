@@ -1,0 +1,107 @@
+/* Footer.css */
+
+/* Style the background color and text color for the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    min-height: auto;
+  }
+  
+  /* Style the social media icons */
+  .social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+  }
+  
+  .social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  /* Style the horizontal lines */
+  hr {
+    border-color: #777;
+  }
+  
+  /* Style the columns */
+  .col-md-4 {
+    width: 33.33%;
+    float: left;
+    padding: 20px;
+  }
+  .col-md-4 li {
+    margin-bottom: 8px; /* Adjust the value to control the space between list items */
+  }
+  
+  
+  /* Style the copyright statement */
+  .text-center {
+    text-align: center;
+    margin-top: 20px;
+  }
+  /* Footer.css */
+  /* Footer.css */
+
+/* ... Previous styles ... */
+
+/* Style to add left padding to paragraphs */
+.paragraph-padding {
+    padding-left: 45px; /* Adjust the left padding as needed */
+  }
+  .paragraph-padding11 {
+    padding-left: 130px; /* Adjust the left padding as needed */
+  }
+  .paragraph-padding12 {
+    padding-left: 150px;
+    padding-right: 20px; /* Adjust the left padding as needed */
+  }
+  
+
+/* Style for the row containing columns */
+.row-equal-spacing {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Style for individual columns */
+  .col-md-2 {
+    width: 20%;
+    box-sizing: border-box;
+    padding: 0 10px; /* Adjust the padding as needed */
+  }
+  
+  /* Style for the small circle around icons */
+  .icon-circle {
+    width: 40px;
+    height: 40px;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 10px; /* Add spacing between rows */
+    color: white;
+  }
+.icon-circle-small {
+    width: 40px;
+    height: 40px;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 0 auto; /* Center horizontally */
+    margin-bottom: 10px; /* Add spacing between rows */
+    color: white;
+  }
+  
+  /* Style for the content in the second row */
+  .second-row-content {
+    text-align: center; /* Center-align text */
+    padding-left: 10px; /* Add a slight left padding */
+  }
+    
+  
